@@ -12,3 +12,7 @@ export const getCategories = async () => {
 export const getProducts = async () => {
     return $api.get('/products');
 }
+
+export const getProductsByCategory = async (category) => {
+    return $api.get('/products/category/'+category)
+}
