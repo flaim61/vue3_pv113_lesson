@@ -19,6 +19,11 @@
                                 {{category}}
                             </RouterLink>
                         </li>
+                        <li class="nav-item">
+                            <RouterLink to="/reviews" class="nav-link">
+                                Отзывы
+                            </RouterLink>
+                        </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
                         <RouterLink to="/card" class="card-link">
